@@ -1,0 +1,302 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TC111" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="684,4088" sap2010:WorkflowViewState.IdRef="TC111_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:m="clr-namespace:MainLibrary;assembly=MainLibrary" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="78">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>MainLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>ReporterForUiPath.Enums</x:String>
+      <x:String>ReporterForUiPath.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="50">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>MainLibrary</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TC111" sap:VirtualizedContainerService.HintSize="694,4023" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="Datatable1" />
+      <Variable x:TypeArguments="sd:DataTable" Name="datatable2" />
+      <Variable x:TypeArguments="sd:DataTable" Name="datatable3" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[Datatable1]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="652,87" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Credentials" WorkbookPath="Excel.xlsx" />
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[Datatable1]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="652,530" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+      <ui:ForEachRow.Body>
+        <ActivityAction x:TypeArguments="sd:DataRow">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,410" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ra:StartTest ContinueOnError="{x:Null}" TagName="{x:Null}" TestDescription="{x:Null}" testList="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="334,84" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Low" TestName="Enter The Data to login" />
+            <m:LoginPage sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="LoginPage_1" Password="[CurrentRow.Item(&quot;Password&quot;).ToString]" Username="[CurrentRow.Item(&quot;Username&quot;).ToString]" />
+            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Login Successful" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_1" Name="Login Status" Status="Compare" TakeScreenshot="True" />
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEachRow.Body>
+    </ui:ForEachRow>
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[datatable2]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="652,87" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="Detail" WorkbookPath="Excel.xlsx" />
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[datatable2]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="652,530" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+      <ui:ForEachRow.Body>
+        <ActivityAction x:TypeArguments="sd:DataRow">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,410" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ra:StartTest ContinueOnError="{x:Null}" TagName="{x:Null}" TestDescription="{x:Null}" testList="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="334,84" sap2010:WorkflowViewState.IdRef="StartTest_2" Priority="Low" TestName="Enter the data to Search Hotel" />
+            <m:SearchHotel Adult="[CurrentRow.Item(&quot;Adult&quot;).ToString]" CheckIN="[DateTime.Now.ToString(&quot;dd/MM/yyyy&quot;)]" Checkout="[DateTime.Now.AddDays(1).ToString(&quot;dd/MM/yyyy&quot;)]" Children="[CurrentRow.Item(&quot;Children&quot;).ToString]" sap:VirtualizedContainerService.HintSize="334,22" Hotel="[CurrentRow.Item(&quot;Hotel&quot;).ToString]" sap2010:WorkflowViewState.IdRef="SearchHotel_1" Location="[CurrentRow.Item(&quot;Location&quot;).ToString]" NoOfRoom="[CurrentRow.Item(&quot;NoOfRoom&quot;).ToString]" RoomType="[CurrentRow.Item(&quot;RoomType&quot;).ToString]" />
+            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Data Entered and Searched the Hotel Successfully" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_2" Name="Data Entered" Status="Compare" TakeScreenshot="True" />
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEachRow.Body>
+    </ui:ForEachRow>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Adactin.com - Select Hotel" sap:VirtualizedContainerService.HintSize="652,2537" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="1abbb283-cf6a-4aff-8d98-9d539ce2ffc8" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="618,2321" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Select'" sap:VirtualizedContainerService.HintSize="576,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1abbb283-cf6a-4aff-8d98-9d539ce2ffc8" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://adactinhotelapp.com/SelectHotel.php" DesignTimeRectangle="29, 424, 13, 13" ElementType="RadioButton" FriendlyName="'INPUT radiobutton_0'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='radio' aaname='' /&gt;" Guid="dbd3de5a-74d1-4fb4-b4cd-d10fe3dcb9bd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACjSURBVDhPtZPBDcMgDEU7NXcGYArEkUVYgDmY4FcvqlFKIjVN3XexbL4+tkkecuB/Jr135ZwVY1QIYYvk1M84mNRalVJSa01jjK1GJKfO+cqbCYJSyis7h/PVaJrQKjddAd1+tGnCzLR8BXTojWnC8mwHn0CH3pgmvMI37PW+nbjsxOV14OfvxEDATbRsOyKSU18N4GACtMrMLO/Wv3MHBxPpCUNxRD3Cz+0BAAAAAElFTkSuQmCC" InformativeScreenshot="ea7dec68a9efcd27097bc57343c98f73.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Select Hotel' /&gt;" SearchSteps="FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="24, 383, 48, 17" FriendlyName="'Select'" FullSelectorArgument="&lt;webctrl tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='STRONG' type='' aaname='Select' check:text='Select' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAVCAYAAAAJiM14AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE6SURBVFhH7ZS7DYQwEESphh5ogwKI6YGQDsgpgRIIyejJp0EaNCwLGAl03IngScjez4zXOBnHMfwTr6Gn8xp6OrcZqus6JEkSsiwLfd+7MXewMtS27STEAoE2do+7DHVdF9I0nWpDq92fDQ3DEPI8X4ng+llhXzekgd40qqpaCPMmqQ22DB3lAcQjT2OgrWmaWaOiel1DmAgmwz1LWZaLQt6peYZi8tQw16ClKIop3stRFv8QG1qwzhgWBPjGml5XxlpDMXleHcspQ0BPSKGwrX2yZSgmT68ap2g5bciCRmyKAhSmJ+2xZWgv71JD2PSKUAgLHBUk1lBM3qVXjsLtg8AJ6TrXKFZjeSjWUGwedQAKRl8+CkdTjHoUvERtrFCEZygmD6hoolfV1lB9h//Qr/EaejqvoWczhg+rLLxTfPEAjAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Continue'" sap:VirtualizedContainerService.HintSize="576,156" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1abbb283-cf6a-4aff-8d98-9d539ce2ffc8" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://adactinhotelapp.com/SelectHotel.php" DesignTimeRectangle="415, 456, 100, 30" ElementType="Button" FriendlyName="'Continue'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' aaname='Continue' check:text='Continue' /&gt;" Guid="4d1db473-3aad-4e3b-ab9c-29f41eb0d135" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGgAAAAiCAYAAACz35yrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHLSURBVGhD7ZoxjsIwEEVzIG7BSXIBSgr61JEoc5I0XIAbUFDTJUfw6iP9aNYMSpC8Zlb6xROxPbaTeZmIws00TUnERYKCswi63W7pfD6n4/EovggcwMWLIAxcLpc0z7P4InAAFy+CYM+bIOoDFxIUGAkKjgQFR4KCI0HBkaDgVBf0eDxS27apaZqF0+nkxpZiGIbnPuM4uuORqSrofr+n/X7/FARR6Lter2m32/3qK0HXdc+1cS1BG0GlQBBEeeOlwD6QTkH/mWqCvOp5B6vK+wTadQ6HwxLD6mC1ELTzCqLAvu+XOLtHHo9frsUYxHNu6eq3VBPEpNtEeORxuVi2WSGeeApgBXmCbMLX4nNBNp77835LE04QkmCTlfflQgCu0YcxxK8lfG08b1tB714Iu39JqgnyHswjTx6wCYsiCG1Lfs+lqCYIbHnTkARPEPuiCFp70UpRVZD3cEgSksU+tpFEb84WQVYo258IskIYn7c5/6+FVRUEmFA8MKEMQkne+BZBdj7mfirI3iPi+G+PgrgG+oDduzTVBYnPkKDgSFBwJCg4EhQcCQqOBAVHgoIjQcFxBenobwzeHv3V4fkYwIF7eF7ERIJCM6UfaJE/omu6tKYAAAAASUVORK5CYII=" InformativeScreenshot="42b28cbac6edb3da176b7e24e7a08c68.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Select Hotel' /&gt;" SearchSteps="FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="520, 456, 100, 30" ElementType="Button" FriendlyName="'Cancel'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='button' aaname='Cancel' check:text='Cancel' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGgAAAAiCAYAAACz35yrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGjSURBVGhD7ZrBjYMwEEUpiC6ohCY40EQkjlTChQboIAfO3KAEr/5KP/JO7JDVKvBXzOEJ2WOj8B9DLi7WdQ2OLi5InIeg+/0euq4LTdM4JwIHcPEkCIVxHMO2bc6JwAFcPAmCvdQG53jgwgUJ44LEcUHiuCBxXJA4LkgcKUHLsoS6rkNRFA/atk2uPRr8jrIswzRNyfqnkBE0z3OoqupbEERhDmEglHjuLC4vCAFAEESl6mdzaUGp7snR9/2PTyDGrDHE2+2W/URizJoNfBiGbO3SgvDQeHgbpoUB4oqxDY3hU1qqzjH/79i1vHe8N+5oe6+j+FeCSNxFOQHxOoS/16V2797LcBQSgt79xDE0vtk2tFeCMIca1sT3JJjHWkuuG49CQhBAAPEnJYUNaW/8lw76bf1TyAhKBYgwEArnEBIDZy0O7ZWgVB1jvhTszlzH2PFRyAgCkAAZCIogGNYpMa7hmhNgBXEN99vAKYnYfZcX5DzjgsRxQeK4IHFckDguSBwXJI4LEscFiZMU5Ed/Ncge/fXD8xrAQfLwvKOJC5JmDV9lVqySwMRQIwAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="576,1835" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="hotelname" />
+                <Variable x:TypeArguments="x:String" Name="Locationcheck" />
+                <Variable x:TypeArguments="x:String" Name="roomtypecheck" />
+                <Variable x:TypeArguments="x:String" Name="checknoroom" />
+                <Variable x:TypeArguments="x:String" Name="checkdays" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NGetText DisplayName="Get Text 'Hotel Name'" sap:VirtualizedContainerService.HintSize="534,156" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="1abbb283-cf6a-4aff-8d98-9d539ce2ffc8" Version="V1">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="http://adactinhotelapp.com/BookHotel.php" DesignTimeRectangle="164, 320, 257, 29" ElementType="InputBox" FriendlyName="'Hotel Creek'" FullSelectorArgument="&lt;webctrl id='hotel_name_dis' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='hotel_name_dis' tag='INPUT' type='text' aaname='' /&gt;" Guid="4924db6d-5edc-4d54-aaa1-6a885831764f" InformativeScreenshot="104d444cbd42cd5623aae7aab2adc421.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Book A Hotel' /&gt;" SearchSteps="FuzzySelector">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="8, 318, 154, 33" ElementType="Text" FriendlyName="'Hotel Name'" FullSelectorArgument="&lt;webctrl parentid='book_hotel_form' tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableRow='3' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='book_hotel_form' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' tag='TD' aaname='Hotel Name ' check:text='Hotel Name' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJ4AAAAlCAYAAACziFDNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKgSURBVHhe7ZjNjSIxEEYnIJKAEIiANAiAM2funLmSAzFw5kgKvf3oKk215f7dVWlm9Vl6GmyXy+7ykw/z5a1p2/v9FiIF007iiVxMO4kncjHtJJ7IxbSTeCIX007iiVxMO4kncjHtJJ7IxbSTeCIX007iiVxMO4kncjHtJJ7IxbSTeCIX007i/RTu93uz2+2a5/NZnf9fMO0kHjwej2az2XwuP46/Xq/mcDg0x+OxNz7GWoHmrCOGKyvj/JyXy6UX/xPprGubxPtd4nHO7XbbO5PE+6UsFY8+pQPWsZ5xz+NzENeW83FurnjEXK/X3r418eIZIeb2+PP5/Pkbz0MMsT5Wk3no++fQrumaxFsmHr8ZY46+v0Je/CGBmOelKmXx3EvEI4Z1vrYm3ul06gkRz+3x8dz8pV+OxTN7Ht8Xyu+fwrSTeOBFpxw1vND+GlBsX1te+pBA5Chfjxg7tC4SY6IUNfFKiNvv95+1tfg5YzHH2Lox2np2TeJ9ixeFAi+qi1crPFB0j6kJ5Hkod8la8eizJ3npl5df29Nfpposc8bYP+aLxHVjtLFdk3h54o1dzhrx/Ny3262X38f9TD429kLOFW/qjFOYdhIP/KKmxKPgFD7GlZdDrpqc5IgilKwRD9iX/SAKwpk4m8f9C/FiDo9Zimkn8YBCzhEP+B0vlTWs9csYykWfcseLRSDykYv5NeLxm7GYuzyTf4ePlULFmLEx79fkL793iI90NIm3TDygT+kgXrDDRfh8XOv7+Bz4pa4VD3w/zxXHgD35F8zfvnhO/H6YOnekje+axBOZmHYST+Ri2kk8kYtpJ/FELqadxBO5mHYST+Ri2kk8kYtpJ/FELqadxBO5mHYST+Ri2kk8kYtpJ/FELqadxBOZvJs/jwUvAF0xhykAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+                <uix:NGetText.Text>
+                  <OutArgument x:TypeArguments="x:String">[hotelname]</OutArgument>
+                </uix:NGetText.Text>
+              </uix:NGetText>
+              <uix:NGetText DisplayName="Get Text 'Location'" sap:VirtualizedContainerService.HintSize="534,156" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="1abbb283-cf6a-4aff-8d98-9d539ce2ffc8" Version="V1">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="http://adactinhotelapp.com/BookHotel.php" DesignTimeRectangle="164, 353, 257, 29" ElementType="InputBox" FriendlyName="'Sydney'" FullSelectorArgument="&lt;webctrl id='location_dis' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='location_dis' tag='INPUT' type='text' aaname='' /&gt;" Guid="8e448bd1-22dd-4946-8e01-4b2d4234dabb" InformativeScreenshot="1415b986d2e793992bc70d25193a9523.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Book A Hotel' /&gt;" SearchSteps="FuzzySelector">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="8, 351, 154, 33" ElementType="Text" FriendlyName="'Location'" FullSelectorArgument="&lt;webctrl parentid='book_hotel_form' tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableRow='4' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='book_hotel_form' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' tag='TD' aaname='Location ' check:text='Location' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJ4AAAAlCAYAAACziFDNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIRSURBVHhe7dfBbepQEEbhFEQTUAIV0AZdeMueNVt6oAbWLN2Cww8zaDK6wc7Ck1g5SEcv4Y59o3e/GOXDX8P91fc9UUnGDnhUm7EDHtVm7IBHtRk74FFtxg54VJuxAx7VZuyAR7UZO+BRbcYOeFSbsQMe1WbsgEe1GTvgUW3GDnhUm7EDXkXn83lYrVbD5XJprs/d4XAYdrvdcLvdXu9dr9dhs9k81uLs3Bk74FX0F+H9VsYOeBVNgacZHYfXehLt9/vmjP6N78e98n2V5v2Jp3W/v2AKqM9pXXO+7oBPp9Nr5qe/UPdrni/gzd8YvLze+hgUuvjU0kzXdY+vNRcB6fuIxsG0Pmr9OkenfXymdR+RiTP55xrrqe7+At78jcHT4cXDVBGLrluv15OfLIKy3W5f81PgtfbIM637aC3iHMvYAa+id/D8SeOH62lWeHSgWht7qgiujjP2DkxG9d0euq+u19fAW1g6nLngOaC4nlEB75+mw5nrozYC9femoMozrT3yDPAWlg7nHby87gfuTxodtA48Hrpm9MeFrtG1jkP5x66/19o/o/I94i+A9o+ogLewdDj6r85FDHnG0XkOozWTrz0ej19QKcfo12V4rT0yKODRYjN2wKPajB3wqDZjBzyqzdgBj2ozdsCj2owd8Kg2Ywc8qs3YAY9qM3bAo9qMHfCoNmMHPKrN2AGPKuuHT6or5Be+gBBGAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+                <uix:NGetText.Text>
+                  <OutArgument x:TypeArguments="x:String">[Locationcheck]</OutArgument>
+                </uix:NGetText.Text>
+              </uix:NGetText>
+              <uix:NGetText DisplayName="Get Text 'Room Type'" sap:VirtualizedContainerService.HintSize="534,156" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="1abbb283-cf6a-4aff-8d98-9d539ce2ffc8" Version="V1">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="http://adactinhotelapp.com/BookHotel.php" DesignTimeRectangle="164, 386, 257, 29" ElementType="InputBox" FriendlyName="'Standard'" FullSelectorArgument="&lt;webctrl id='room_type_dis' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='room_type_dis' tag='INPUT' type='text' aaname='' /&gt;" Guid="ed665e04-ec87-4788-956e-61b00328833b" InformativeScreenshot="257ff27502d9b60446f3d2db3841ea2c.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Book A Hotel' /&gt;" SearchSteps="FuzzySelector">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="8, 384, 154, 33" ElementType="Text" FriendlyName="'Room Type'" FullSelectorArgument="&lt;webctrl parentid='book_hotel_form' tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableRow='5' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='book_hotel_form' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' tag='TD' aaname='Room Type ' check:text='Room Type' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJ4AAAAlCAYAAACziFDNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKhSURBVHhe7ZbbcQIxDEVTEE1ACVRAG1TBN5XQAzXwzSctbPayuoyiyI4zmYg8rmfO7ForO7Z1dskL2zS32+0mRAmmncQTtZh2Ek/UYtpJPFGLaSfxRC2mncQTtZh2Ek/UYtpJPFGLaSfxRC2mncQTtZh2Ek/UYtpJPFGLaSfxRC2mncQTtZh2Eq/F+XyeVqsVDuoNp9MpzX82x+Px3Vo92Av2lI2tZF7L0iReDsXzouEeR/ZT5SPX63Xa7XZ3GbPnz2Sxbm4SLycTr1XQ/X7f/bLEryfy+YxzHg6H+9XnXC6XabPZPGKjImXrxD1ieJbl+Xu/H79W8tF+e8xjlibxcjLxKIIvKIrgC4p8X4w4DwvMgrKfjYmx9Xr96PfwEjHGOf1+/Fo5Bkowp7VfL2Pc70cs1s1N4uVkhUIBUAgUBH0WxufEouOKPuLMQT7nySQZjbVo5UZpfL81Bn3E8Rxnst1uH/vvjWth2km8FhQPR0R80ZgTCwFQBObiGouCfIzD+Kxwo7EWrVz/deL++NL0xvAlwb0/D8/IusCcuzSJlxMLg4PFcbHPnN8kHv4ufzoBcpDbGxPF473P+QyLdXOTeDlRPACJ+MVAn4X0ObGAscDAFzAr+GisRS8XMZQdjMyPPuJ4jn2P/p/Z4i4dmsTLycRjcfxbDxlZGPSR7+WM83AOfhGzgo/GWvRyuZ745crGtNYex2KMP6cepp3Ea5GJB3j4Xi5IhKMEPk44F3MoHcgKPhpr0cvlM78GH+caSSaU3y+IIvaY85cm8f4XEASitF6oEbG/gmkn8f4bEAuCQTQfl3ji2+DXrvcTLPHEn8S0k3iiFtNO4olaTDuJJ2ox7SSeqMW0k3iiFtNO4olaTDuJJ2ox7SSeqMW0k3iiktv0Cko7aFr1b0RHAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+                <uix:NGetText.Text>
+                  <OutArgument x:TypeArguments="x:String">[roomtypecheck]</OutArgument>
+                </uix:NGetText.Text>
+              </uix:NGetText>
+              <uix:NGetText DisplayName="Get Text 'Number of Rooms'" sap:VirtualizedContainerService.HintSize="534,156" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="1abbb283-cf6a-4aff-8d98-9d539ce2ffc8" Version="V1">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="http://adactinhotelapp.com/BookHotel.php" DesignTimeRectangle="164, 419, 257, 29" ElementType="InputBox" FriendlyName="'2 Room(s)'" FullSelectorArgument="&lt;webctrl id='room_num_dis' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='room_num_dis' tag='INPUT' type='text' aaname='' /&gt;" Guid="b0b0a0f8-c456-45b8-a992-4327eea106db" InformativeScreenshot="c5f6f25313fd74c4f854851487fd5f1a.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Book A Hotel' /&gt;" SearchSteps="FuzzySelector">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="8, 417, 154, 33" ElementType="Text" FriendlyName="'Number of Rooms'" FullSelectorArgument="&lt;webctrl parentid='book_hotel_form' tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableRow='6' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='book_hotel_form' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' tag='TD' aaname='Number of Rooms ' check:text='Number of Rooms' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJ4AAAAlCAYAAACziFDNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAN4SURBVHhe7ZfRbdtAEERTkJuQSnAFbsNV6Fv/6sE9uAZ/61MtKBxyBxhs9kQ6CDeBMgc8ULzb29udGzPID477NG63mzEthO1sPNNL2M7GM72E7Ww800vYzsYzvYTtbDzTS9jOxjO9hO1sPNNL2M7GM72E7Ww800vYzsYzvYTtbDzTS9jOxjO9hO2e13gfHx/34/F4//r6Ktf/Btfr9f729gbxZ1BjFffMzKbD2MN4n5+f95eXlxn81rX39/cZnduDf9F45/N5Nh4MWK2DbE7SoVkHUy/L2Mt4h8NhJgv9PxsPfcN81Rqh8VQj9IBensF8Ybt9jXe5XOavnv6TosajyPkyNIaiIxeeKBlgD7+snNNzaDzs43r1Bc459HKZA0/GPDLOo1z4zXkw+vJVxgPV1xJ1ac5cG3NxHb3oHyJznk6nX2K03rVzc95HTPHL2NN4eGbB0BBFpTBZMI2h8bQ5Np7nqhjmAThHY7ROvLMe7mGOLHwFTYc9eM+5Rr1m8j6Cd60D5+gfEnVi/ipP7h/v6C/vqeb4njVjHva9xpR7GXsbj4KwMAixdhkak/dvncNTRa5icEY+W/dVOUYgjxoD6P5RrxnGsX8AHdXUQDUiWkNlkNx/VfPa3Hc0qQjb7W88vKNwFquCUWSs636NyWJtnasE0vP4GxJkuO87IqPe3Af2vb6+zjqMes1UdY360P4BzsF5rB0xiNUYrRPPHLM2h9yoh7XlGtaY9iyjw3gsFg2oqSgghSAaw73a4JY5PPGOecboeaOzlSrHCL1Qgn2/azz2j7342vFdY7R/xu5tPM5Rb1gI5FpGzKbD6DAe4CWiAYpIAfNlYJ0xbFAb2zLH8zA/itFzKqocI6rL0f2jXjOM07qQB1ele6vatYbqDnL/Vc1b5wjr1doesbhuGl3GY4E4UgXDb22KIjMmi7V1Dk9eOmNGZ6loiEccYqocI9Drnv+5wD7Uqv39if9cqB5b5vAbcI3nsq41ph6W0WU8gOJwpIpBgTDPNYL1qrEtczxLyYICGkbjKCxy6EWtkXNVfeqlVTBO9xLszfXxLJ0nWdvcC+KzJmtzj/TawhS/jD2MZ8yIsJ2NZ3oJ29l4ppewnY1negnb2Ximl7CdjWd6CdvZeKaXsJ2NZ3oJ29l4ppewnY1negnb2Ximl7CdjWd6CdvZeKaT2/0nN4Y3znwY64AAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+                <uix:NGetText.Text>
+                  <OutArgument x:TypeArguments="x:String">[checknoroom]</OutArgument>
+                </uix:NGetText.Text>
+              </uix:NGetText>
+              <uix:NGetText DisplayName="Get Text 'Total Days'" sap:VirtualizedContainerService.HintSize="534,156" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="1abbb283-cf6a-4aff-8d98-9d539ce2ffc8" Version="V1">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="http://adactinhotelapp.com/BookHotel.php" DesignTimeRectangle="164, 452, 257, 29" ElementType="InputBox" FriendlyName="'1 Day(s)'" FullSelectorArgument="&lt;webctrl id='total_days_dis' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='total_days_dis' tag='INPUT' type='text' aaname='' /&gt;" Guid="37c460f0-fb15-43e1-9e74-07668687c433" InformativeScreenshot="56e441ab693e2f406ba0037d15599a35.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Book A Hotel' /&gt;" SearchSteps="FuzzySelector">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="8, 450, 154, 33" ElementType="Text" FriendlyName="'Total Days'" FullSelectorArgument="&lt;webctrl parentid='book_hotel_form' tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableRow='7' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='book_hotel_form' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' tag='TD' aaname='Total Days ' check:text='Total Days' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJ4AAAAlCAYAAACziFDNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKQSURBVHhe7ZbBccIwEEVTEE1ACVRAGxRAEVTCmSs1cOZIC46/vT+zWWRhGWZJZr5m3iSstJKsfQh/sXV9u9/vQqRg2kk8kYtpJ/FELqadxBO5mHYST+Ri2kk8kYtpJ/FELqadxBO5mHYST+Ri2kk8kYtpJ/FELqadxBO5mHYST+Ri2km8v871eu02m013Op2K/f8N007izYHFx3FNsd/vi7lkqUBz8i6XS7darZr39An6fY1N4rUDCSADpCj1l8gQz4+53W7dbrcb4uj34z+JaSfxljAlHuI4UnI8Hoc4JfB9zC/dVswDS8UjuPX8XmvrcZ9+feas1+sfgeNzls5iin782CReOyXxEPO3C4VhEacEwvjD4fDrs5doKs8Tc2p9z9bDfuOzQV4ICTEx3kvInNr+PKadxFsCDrlUnPhOhYKwYHMEIpjnmbCeKI+H+ZyvRG29+Bl/8Rlx5rdg2km8JcTD509ULDyE2G63w7hYQA9iKIWHEtfySKt4tfUA/ucXBnn+WTkf82r7KtHnjE3itYPD9sV4RTwUGdL4ny7E3iVe7Hu2HsBYjDmfz8NzlW7LpQIO0qFJvHZwyF48EIsHUDDeHCU5p4T1c70qHuap7YFj/N45DnpESSMcW5KzxGhd3yReOyhcFA8xXyQKw4KwQKUC+xjmQVkYWyoe5/Z7mrMewb6n4l6yOfvzwLmhSbx2cMhRPMZxpCTeAhQEfcxn4ZiDQhPktIjHOfxcceyz9UhJZh/368TnrNGPH5vEEyWmvlyvYtpJPPFI63tbC6adxBOP4Lbz74bvxLSTeCIX007iiVxMO4kncjHtJJ7IxbSTeCIX007iiVxMO4kncjHtJJ7IxbSTeCIX007iiUzu3TctKm4nOiKZvgAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+                <uix:NGetText.Text>
+                  <OutArgument x:TypeArguments="x:String">[checkdays]</OutArgument>
+                </uix:NGetText.Text>
+              </uix:NGetText>
+              <ra:StartTest ContinueOnError="{x:Null}" TagName="{x:Null}" TestDescription="{x:Null}" testList="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="534,84" sap2010:WorkflowViewState.IdRef="StartTest_3" Priority="Low" TestName="Verification Of Hotel name, Location, Number Of Days" />
+              <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                <uta:VerifyExpressionWithOperator.FirstExpression>
+                  <InArgument x:TypeArguments="x:String">[hotelname]</InArgument>
+                </uta:VerifyExpressionWithOperator.FirstExpression>
+                <uta:VerifyExpressionWithOperator.SecondExpression>
+                  <InArgument x:TypeArguments="x:String">["Hotel Creek"]</InArgument>
+                </uta:VerifyExpressionWithOperator.SecondExpression>
+              </uta:VerifyExpressionWithOperator>
+              <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_2" Operator="Contains" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                <uta:VerifyExpressionWithOperator.FirstExpression>
+                  <InArgument x:TypeArguments="x:String">[checkdays]</InArgument>
+                </uta:VerifyExpressionWithOperator.FirstExpression>
+                <uta:VerifyExpressionWithOperator.SecondExpression>
+                  <InArgument x:TypeArguments="x:String">["1"]</InArgument>
+                </uta:VerifyExpressionWithOperator.SecondExpression>
+              </uta:VerifyExpressionWithOperator>
+              <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_3" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                <uta:VerifyExpressionWithOperator.FirstExpression>
+                  <InArgument x:TypeArguments="x:String">[Locationcheck]</InArgument>
+                </uta:VerifyExpressionWithOperator.FirstExpression>
+                <uta:VerifyExpressionWithOperator.SecondExpression>
+                  <InArgument x:TypeArguments="x:String">["Sydney"]</InArgument>
+                </uta:VerifyExpressionWithOperator.SecondExpression>
+              </uta:VerifyExpressionWithOperator>
+              <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_4" Operator="Contains" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                <uta:VerifyExpressionWithOperator.FirstExpression>
+                  <InArgument x:TypeArguments="x:String">[checknoroom]</InArgument>
+                </uta:VerifyExpressionWithOperator.FirstExpression>
+                <uta:VerifyExpressionWithOperator.SecondExpression>
+                  <InArgument x:TypeArguments="x:String">["2"]</InArgument>
+                </uta:VerifyExpressionWithOperator.SecondExpression>
+              </uta:VerifyExpressionWithOperator>
+              <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_5" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                <uta:VerifyExpressionWithOperator.FirstExpression>
+                  <InArgument x:TypeArguments="x:String">[roomtypecheck]</InArgument>
+                </uta:VerifyExpressionWithOperator.FirstExpression>
+                <uta:VerifyExpressionWithOperator.SecondExpression>
+                  <InArgument x:TypeArguments="x:String">["Standard"]</InArgument>
+                </uta:VerifyExpressionWithOperator.SecondExpression>
+              </uta:VerifyExpressionWithOperator>
+              <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Verification Successful" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="534,132" sap2010:WorkflowViewState.IdRef="StepStatus_3" Name="Details  Verification " Status="Compare" TakeScreenshot="True" />
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="e5240c79a0c346d6ce607c470bf692ce.png" Selector="&lt;html app='chrome.exe' title='Adactin.com - Select Hotel'/&gt;" Url="http://adactinhotelapp.com/SelectHotel.php" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

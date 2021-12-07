@@ -1,31 +1,15 @@
 # Starter pipeline
-- task: UiPathRunJob@2
-  inputs:
-    orchestratorConnection: 'NewConnection'
-    processName: 'MainProcess'
-    folderName: '12345'
-    jobType: 'TestAutomation'
-- task: UiPathRunJob@2
-  inputs:
-    orchestratorConnection: 'NewConnection'
-    processName: 'MainProcess'
-    folderName: '12345'
-    jobType: 'TestAutomation'
+
+
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
 trigger:
 - main
-- task: UiPathTest@2
-  inputs:
-    testTarget: 'TestProject'
-    orchestratorConnection: 'NewConnection'
-    folderName: '12345'
 
 pool:
-  vmImage: ubuntu-latest
-
+  JayantPool
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
@@ -34,3 +18,9 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: UiPathRunJob@2
+  inputs:
+    orchestratorConnection: 'NewConnection'
+    processName: 'MainProcess'
+    folderName: '12345'
+    jobType: 'TestAutomation'

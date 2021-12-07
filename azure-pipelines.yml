@@ -5,6 +5,12 @@
     processName: 'MainProcess'
     folderName: '12345'
     jobType: 'TestAutomation'
+- task: UiPathRunJob@2
+  inputs:
+    orchestratorConnection: 'NewConnection'
+    processName: 'MainProcess'
+    folderName: '12345'
+    jobType: 'TestAutomation'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
